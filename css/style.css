@@ -85,8 +85,9 @@ header{
 /*Requirement 9*/
 #logo{
    /*Your code here.*/
-   -webkit-animation: logo_grow 15s;
-   animation: logo_grow 15s;
+   -webkit-animation: logo_grow;
+   animation-name: logo_grow;
+   animation-duration:15s;
  
 }
 
